@@ -1,11 +1,6 @@
 import NextLink from "next/link";
 import Image from "next/image";
-import {
-  ChatAlt2Icon,
-  BellIcon,
-  ChevronDownIcon,
-  SearchIcon,
-} from "@heroicons/react/outline";
+import { SearchIcon } from "@heroicons/react/outline";
 
 import { BadgeCheckIcon } from "@heroicons/react/solid";
 
@@ -16,21 +11,21 @@ function Header() {
         <div>
           <NextLink href="/">
             <a className="font-semi-bold cursor-pointer">
-              <img
+              <Image
                 src="/home/logo.png"
                 alt="frontierX Logo"
-                width="150px"
-                height="15px"
+                width="150"
+                height="20"
               />
             </a>
           </NextLink>
         </div>
         <div className="ml-auto mr-7 relative flex items-center w-1/2">
-          <SearchIcon className="text-gray-500 absolute left-4 w-4 h-4" />
+          <SearchIcon className="text-gray-500 absolute left-4 w-5 h-4" />
           <input
             type="text"
             placeholder="Lorem ipsum"
-            className="border-gray-600 bg-[#1f1f1f] border-[1px] text-white focus:outline-none w-full rounded-lg py-2 px-10 text-sm"
+            className="bg-[#1f1f1f] text-white focus:outline-none w-full rounded-lg py-3 px-10 text-sm"
           />
         </div>
         <div className="flex space-x-4 items-center">
