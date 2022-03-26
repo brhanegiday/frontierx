@@ -11,7 +11,7 @@ function Banner() {
           className="object-center"
         />
       </div>
-      <div className="relative top-6 2xl:top-7">
+      <div className="relative top-6 2xl:top-9">
         <div className="absolute bottom-0 w-full 2xl:h-60 mx-auto h-40">
           <Image
             src="/home/Ellipse 37.png"

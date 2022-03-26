@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Disclosure } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import { RiApps2Line } from "react-icons/ri";
 import AcContent from "../components/Disclosure";
 import LowerSection from "../components/LowerSection";
@@ -17,7 +17,7 @@ export default function Accordion() {
                   <RiApps2Line size={17} className="text-[#F3F3F3]" />
                   <h4 className="text-lg text-white font-bold">Lorem ipsum</h4>
                 </div>
-                <ChevronUpIcon
+                <ChevronDownIcon
                   BsQuestionCircle
                   className={`${
                     open ? "transform rotate-180" : ""

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Disclosure, Transition } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import { BsQuestionCircle } from "react-icons/bs";
 import { accordionData } from "../../data/accordioData";
 import { RiApps2Line } from "react-icons/ri";
@@ -34,7 +34,7 @@ function LowerSection() {
                   )}
                 </div>
               </div>
-              <ChevronUpIcon
+              <ChevronDownIcon
                 className={`${
                   open ? "transform rotate-180" : ""
                 } w-5 h-5 text-white`}
@@ -83,7 +83,7 @@ function LowerSection() {
                   Lorem ipsum
                 </h4>
               </div>
-              <ChevronUpIcon
+              <ChevronDownIcon
                 className={`${
                   open ? "transform rotate-180" : ""
                 } w-5 h-5 text-white`}
