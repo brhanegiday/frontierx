@@ -1,6 +1,6 @@
 import { Disclosure, Transition } from "@headlessui/react";
-import { ExternalLinkIcon } from "@heroicons/react/solid";
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { HiExternalLink } from "react-icons/hi";
+import { FaInstagram, FaGithubAlt } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 
 export default function AcContent({ open }) {
@@ -14,8 +14,8 @@ export default function AcContent({ open }) {
       leaveFrom="transform scale-100 opacity-100"
       leaveTo="transform scale-95 opacity-0"
     >
-      <Disclosure.Panel static className="px-4 pt-4 pb-2 text-sm text-white ">
-        <p className="border-t-[1px] border-gray-800 py-3 w-[90%]">
+      <Disclosure.Panel static className="px-4 pt-4 pb-2">
+        <p className="border-t-[1px] border-gray-800 py-3 text-sm text-white w-[90%] leading-relaxed1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -23,22 +23,30 @@ export default function AcContent({ open }) {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </p>
-        <div className="grid grid-cols-2 gap-x-4 pt-4 space-y-2">
+        <div className="grid grid-cols-2 gap-x-4 py-6 space-y-4">
           <div className="flex items-center space-x-2 cursor-pointer">
-            <ExternalLinkIcon className="h-4 w-4 text-white" />
-            <p className="text-[#FC364C]">Lorem ipsum.com</p>
+            <HiExternalLink className="text-[#F3F3F3] h-5 w-5" />
+            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+              Lorem ipsum.com
+            </p>
           </div>
           <div className="flex items-center space-x-2 cursor-pointer">
-            <FaFacebookF className="h-4 w-4 text-white" />
-            <p className="text-[#FC364C]">Lorem ipsum.com</p>
+            <FaGithubAlt className="text-[#F3F3F3] h-5 w-5" />
+            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+              @Lorem ipsum
+            </p>
           </div>
           <div className="flex items-center space-x-2 cursor-pointer">
-            <FaInstagram className="h-4 w-4 text-white" />
-            <p className="text-[#FC364C]">Lorem ipsum.com</p>
+            <FaInstagram className="text-[#F3F3F3] h-5 w-5" />
+            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+              @Lorem ipsum
+            </p>
           </div>
           <div className="flex items-center space-x-2 cursor-pointer">
-            <FiTwitter className="h-4 w-4 text-white" />
-            <p className="text1-[#FC364C]">Lorem ipsum.com</p>
+            <FiTwitter className="text-[#F3F3F3] h-5 w-5" size={17} />
+            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+              @Lorem ipsum
+            </p>
           </div>
         </div>
       </Disclosure.Panel>

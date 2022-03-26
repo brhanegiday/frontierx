@@ -19,3 +19,10 @@ a {
 * {
   box-sizing: border-box;
 }
+main {
+  /* Created with https://www.css-gradient.com */
+  /* background: #fc374d00;
+  background: -webkit-linear-gradient(top right, #fc374d00, #5451e94d);
+  background: -moz-linear-gradient(top right, #fc374d00, #5451e94d);
+  background: linear-gradient(to bottom left, #fc374d00, #5451e94d); */
+}

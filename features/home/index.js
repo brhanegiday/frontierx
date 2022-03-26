@@ -3,8 +3,8 @@ import Descriprtion from "./Descriprtion";
 import Accordion from "./Accordions";
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-[#181919] to-[#2e233e]">
-      <div className="xl:container mx-auto">
+    <div className="">
+      <div className="container 2xl:max-w-[1700px]  mx-auto">
         <Banner />
         <Descriprtion />
         <Accordion />
