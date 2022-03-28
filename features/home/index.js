@@ -3,8 +3,8 @@ import Descriprtion from "./Descriprtion";
 import Accordion from "./Accordions";
 function Home() {
   return (
-    <div className="">
-      <div className="container 2xl:max-w-[1700px]  mx-auto">
+    <div className="px-6 2xl:px-8">
+      <div className="w-full  mx-auto">
         <Banner />
         <Descriprtion />
         <Accordion />

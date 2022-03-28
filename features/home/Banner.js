@@ -1,17 +1,15 @@
 import Image from "next/image";
 function Banner() {
   return (
-    <div className="mb-10">
-      <div className="h-[25vw] mx-auto py-2  w-full relative">
-        <Image
+    <div className="mb-6 ">
+      <div className="py-8 2xl:py-10">
+        <img
           src="/home/Sub Header Mask.png"
           alt="frontierX Logo"
-          layout="fill"
-          objectFit="contain"
-          className="object-center"
+          className="object-center w-full h-auto object-cover"
         />
       </div>
-      <div className="relative top-6 2xl:top-9">
+      <div className="relative top-8 2xl:top-[4.2rem]">
         <div className="absolute bottom-0 w-full 2xl:h-60 mx-auto h-40">
           <Image
             src="/home/Ellipse 37.png"

@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <header className="sticky top-0 z-50 drop-shadow-sm bg-[#0D0D0D]">
-        <div className="xl:container flex items-center px-10 mx-auto py-4 ">
+        <div className="flex items-center px-12 2xl:px-16 mx-auto py-4 ">
           <div>
             <NextLink href="/">
               <a className="cursor-pointer">
