@@ -23,28 +23,28 @@ export default function AcContent({ open }) {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </p>
-        <div className="grid grid-cols-2 gap-x-4 py-6 space-y-4">
+        <div className="grid grid-cols-2 gap-4 py-6">
           <div className="flex items-center space-x-2 cursor-pointer">
             <HiExternalLink className="text-[#F3F3F3] h-5 w-5" />
-            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+            <p className="text-red-ribbon-500 transition text-sm duration-150 hover:text-white">
               Lorem ipsum.com
             </p>
           </div>
           <div className="flex items-center space-x-2 cursor-pointer">
             <FaGithubAlt className="text-[#F3F3F3] h-5 w-5" />
-            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+            <p className="text-red-ribbon-500 transition text-sm duration-150 hover:text-white">
               @Lorem ipsum
             </p>
           </div>
           <div className="flex items-center space-x-2 cursor-pointer">
             <FaInstagram className="text-[#F3F3F3] h-5 w-5" />
-            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+            <p className="text-red-ribbon-500 transition text-sm duration-150 hover:text-white">
               @Lorem ipsum
             </p>
           </div>
           <div className="flex items-center space-x-2 cursor-pointer">
             <FiTwitter className="text-[#F3F3F3] h-5 w-5" size={17} />
-            <p className="text-red-ribbon-500 transi duration-150 hover:text-white">
+            <p className="text-red-ribbon-500 transition text-sm duration-150 hover:text-white">
               @Lorem ipsum
             </p>
           </div>

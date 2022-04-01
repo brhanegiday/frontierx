@@ -8,10 +8,14 @@ import LowerSection from "../components/LowerSection";
 export default function Accordion() {
   return (
     <div className="pb-10">
-      <div className="grid grid-cols-2 gap-x-10">
-        <Disclosure as="div" className="bg4-red-300 w-full" defaultOpen={true}>
+      <div className="md:grid grid-cols-2 gap-x-10">
+        <Disclosure
+          as="div"
+          className="bg4-red-300 w-full mb-3"
+          defaultOpen={true}
+        >
           {({ open }) => (
-            <div className="p-5 bg-[#0D0D0D80] rounded-sm">
+            <div className="p-5 bg-[#0D0D0D80] rounded-md border-gray-800 border-[1px]">
               <Disclosure.Button className="flex justify-between w-full px-4 py-1 text-sm font-medium text-left rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-[#0D0D0D80] focus-visible:ring-opacity-75">
                 <div className="flex space-x-1 items-center shadow-sm">
                   <RiApps2Line size={17} className="text-[#F3F3F3]" />

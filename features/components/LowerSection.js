@@ -10,10 +10,10 @@ function LowerSection() {
 
   return (
     <div>
-      <Disclosure as="div" className="w-full">
+      <Disclosure as="div" className="w-full ">
         {({ open }) => (
-          <div className="p-5 bg-[#0D0D0D80] rounded-md">
-            <Disclosure.Button className="flex justify-between w-full px-4 py-1 text-sm font-medium text-left rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-[#0D0D0D80] focus-visible:ring-opacity-75">
+          <div className="p-5 bg-[#0D0D0D80] rounded-md border-gray-800 border-[1px] ">
+            <Disclosure.Button className="flex  justify-between w-full px-4 py-1 text-sm font-medium text-left rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-[#0D0D0D80] focus-visible:ring-opacity-75">
               <div className="flex space-x-1 items-center shadow-sm">
                 <RiApps2Line size={17} className="text-[#F3F3F3]" />
                 <h4 className="text-lg text-white font-extrabold">
@@ -53,13 +53,13 @@ function LowerSection() {
                 static
                 className="px-4 pt-6 pb-2 text-sm text-white"
               >
-                <div className="grid grid-cols-3 gap-x-4 gap-y-3">
+                <div className="grid grid-cols-2 xl:grid-cols-3  gap-x-4 gap-y-3">
                   {accordionData.map((item, i) => (
                     <div key={i} className="bg-[#0D0D0D] py-3 px-4 rounded-md">
                       <p className="text-star-dust-500 text-center text-xs">
                         {item.subtitle}
                       </p>
-                      <h3 className="text-lg py-1 text-white font-semibold text-center">
+                      <h3 className="lg:text-lg text-sm py-1 text-white font-semibold text-center">
                         {item.title}
                       </h3>
                       <p className="text-star-dust-500 text-xs text-center">
@@ -75,7 +75,7 @@ function LowerSection() {
       </Disclosure>
       <Disclosure as="div" className="w-full py-5">
         {({ open }) => (
-          <div className="p-5 bg-[#0D0D0D80] rounded-md">
+          <div className="p-5 bg-[#0D0D0D80] rounded-md border-gray-800 border-[1px]">
             <Disclosure.Button className="flex justify-between w-full px-4 py-1 text-sm font-medium text-left rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-[#0D0D0D80] focus-visible:ring-opacity-75">
               <div className="flex space-x-1 items-center shadow-sm">
                 <RiApps2Line size={17} className="text-[#F3F3F3]" />
